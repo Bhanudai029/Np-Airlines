@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "C:\\Users\\baral\\.gradle\\daemon\\9.1.0\\com.npairlines.app-debug-28:\\layout_dialog_custom.xml.flat",
+        "source": "C:\\Users\\baral\\.gradle\\daemon\\9.1.0\\com.npairlines.app-main-30:\\layout\\dialog_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\baral\\.gradle\\daemon\\9.1.0\\com.npairlines.app-debug-28:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\baral\\.gradle\\daemon\\9.1.0\\com.npairlines.app-main-30:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\baral\\.gradle\\daemon\\9.1.0\\com.npairlines.app-debug-28:\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\baral\\.gradle\\daemon\\9.1.0\\com.npairlines.app-main-30:\\drawable\\ic_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\baral\\.gradle\\daemon\\9.1.0\\com.npairlines.app-debug-28:\\drawable_plane_nose.xml.flat",
+        "source": "C:\\Users\\baral\\.gradle\\daemon\\9.1.0\\com.npairlines.app-main-30:\\drawable\\plane_nose.xml"
+    },
+    {
+        "merged": "C:\\Users\\baral\\.gradle\\daemon\\9.1.0\\com.npairlines.app-debug-28:\\layout_fragment_my_bookings.xml.flat",
+        "source": "C:\\Users\\baral\\.gradle\\daemon\\9.1.0\\com.npairlines.app-main-30:\\layout\\fragment_my_bookings.xml"
+    },
+    {
+        "merged": "C:\\Users\\baral\\.gradle\\daemon\\9.1.0\\com.npairlines.app-debug-28:\\layout_activity_onboarding.xml.flat",
+        "source": "C:\\Users\\baral\\.gradle\\daemon\\9.1.0\\com.npairlines.app-main-30:\\layout\\activity_onboarding.xml"
+    },
+    {
+        "merged": "C:\\Users\\baral\\.gradle\\daemon\\9.1.0\\com.npairlines.app-debug-28:\\drawable_logo.png.flat",
+        "source": "C:\\Users\\baral\\.gradle\\daemon\\9.1.0\\com.npairlines.app-main-30:\\drawable\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\baral\\.gradle\\daemon\\9.1.0\\com.npairlines.app-debug-28:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\baral\\.gradle\\daemon\\9.1.0\\com.npairlines.app-main-30:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\baral\\.gradle\\daemon\\9.1.0\\com.npairlines.app-debug-28:\\layout_activity_terms.xml.flat",
+        "source": "C:\\Users\\baral\\.gradle\\daemon\\9.1.0\\com.npairlines.app-main-30:\\layout\\activity_terms.xml"
+    },
+    {
+        "merged": "C:\\Users\\baral\\.gradle\\daemon\\9.1.0\\com.npairlines.app-debug-28:\\layout_activity_booking.xml.flat",
+        "source": "C:\\Users\\baral\\.gradle\\daemon\\9.1.0\\com.npairlines.app-main-30:\\layout\\activity_booking.xml"
+    },
+    {
+        "merged": "C:\\Users\\baral\\.gradle\\daemon\\9.1.0\\com.npairlines.app-debug-28:\\layout_activity_otp.xml.flat",
+        "source": "C:\\Users\\baral\\.gradle\\daemon\\9.1.0\\com.npairlines.app-main-30:\\layout\\activity_otp.xml"
+    },
+    {
+        "merged": "C:\\Users\\baral\\.gradle\\daemon\\9.1.0\\com.npairlines.app-debug-28:\\layout_activity_seat_selection.xml.flat",
+        "source": "C:\\Users\\baral\\.gradle\\daemon\\9.1.0\\com.npairlines.app-main-30:\\layout\\activity_seat_selection.xml"
+    },
+    {
+        "merged": "C:\\Users\\baral\\.gradle\\daemon\\9.1.0\\com.npairlines.app-debug-28:\\layout_activity_admin_dashboard.xml.flat",
+        "source": "C:\\Users\\baral\\.gradle\\daemon\\9.1.0\\com.npairlines.app-main-30:\\layout\\activity_admin_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\baral\\.gradle\\daemon\\9.1.0\\com.npairlines.app-debug-28:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\baral\\.gradle\\daemon\\9.1.0\\com.npairlines.app-main-30:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\baral\\.gradle\\daemon\\9.1.0\\com.npairlines.app-debug-28:\\layout_activity_flight_search.xml.flat",
+        "source": "C:\\Users\\baral\\.gradle\\daemon\\9.1.0\\com.npairlines.app-main-30:\\layout\\activity_flight_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\baral\\.gradle\\daemon\\9.1.0\\com.npairlines.app-debug-28:\\layout_item_booking.xml.flat",
+        "source": "C:\\Users\\baral\\.gradle\\daemon\\9.1.0\\com.npairlines.app-main-30:\\layout\\item_booking.xml"
+    },
+    {
+        "merged": "C:\\Users\\baral\\.gradle\\daemon\\9.1.0\\com.npairlines.app-debug-28:\\layout_item_flight.xml.flat",
+        "source": "C:\\Users\\baral\\.gradle\\daemon\\9.1.0\\com.npairlines.app-main-30:\\layout\\item_flight.xml"
+    },
+    {
+        "merged": "C:\\Users\\baral\\.gradle\\daemon\\9.1.0\\com.npairlines.app-debug-28:\\layout_activity_confirmation.xml.flat",
+        "source": "C:\\Users\\baral\\.gradle\\daemon\\9.1.0\\com.npairlines.app-main-30:\\layout\\activity_confirmation.xml"
+    },
+    {
+        "merged": "C:\\Users\\baral\\.gradle\\daemon\\9.1.0\\com.npairlines.app-debug-28:\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\baral\\.gradle\\daemon\\9.1.0\\com.npairlines.app-main-30:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\baral\\.gradle\\daemon\\9.1.0\\com.npairlines.app-debug-28:\\layout_activity_payment.xml.flat",
+        "source": "C:\\Users\\baral\\.gradle\\daemon\\9.1.0\\com.npairlines.app-main-30:\\layout\\activity_payment.xml"
+    },
+    {
+        "merged": "C:\\Users\\baral\\.gradle\\daemon\\9.1.0\\com.npairlines.app-debug-28:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\baral\\.gradle\\daemon\\9.1.0\\com.npairlines.app-main-30:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.npairlines.app-debug-28:/layout_activity_confirmation.xml.flat",
+        "source": "com.npairlines.app-main-30:/layout/activity_confirmation.xml"
+    }
+]

@@ -1,0 +1,149 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.npairlines"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:6:22-76
+13
+14    <permission
+14-->[androidx.core:core:1.9.0] C:\Users\baral\.gradle\caches\9.1.0\transforms\066c12c00859d02386bf97d2cf6432de\workspace\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+15        android:name="com.npairlines.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.9.0] C:\Users\baral\.gradle\caches\9.1.0\transforms\066c12c00859d02386bf97d2cf6432de\workspace\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.9.0] C:\Users\baral\.gradle\caches\9.1.0\transforms\066c12c00859d02386bf97d2cf6432de\workspace\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.npairlines.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.9.0] C:\Users\baral\.gradle\caches\9.1.0\transforms\066c12c00859d02386bf97d2cf6432de\workspace\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.9.0] C:\Users\baral\.gradle\caches\9.1.0\transforms\066c12c00859d02386bf97d2cf6432de\workspace\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:8:5-50:19
+21        android:allowBackup="true"
+21-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:9:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.9.0] C:\Users\baral\.gradle\caches\9.1.0\transforms\066c12c00859d02386bf97d2cf6432de\workspace\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+23        android:debuggable="true"
+24        android:extractNativeLibs="false"
+25        android:icon="@drawable/logo"
+25-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:10:9-38
+26        android:label="@string/app_name"
+26-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:12:9-41
+27        android:roundIcon="@drawable/logo"
+27-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:11:9-43
+28        android:supportsRtl="true"
+28-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:13:9-35
+29        android:theme="@style/Theme.NpAirlines" >
+29-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:14:9-48
+30        <activity
+30-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:16:9-19:20
+31            android:name="com.npairlines.MainActivity"
+31-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:17:13-41
+32            android:exported="true" >
+32-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:18:13-36
+33        </activity>
+34        <activity android:name="com.npairlines.ui.flight.FlightSearchActivity" />
+34-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:21:9-68
+34-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:21:19-65
+35        <activity
+35-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:22:9-39:20
+36            android:name="com.npairlines.ui.auth.LoginActivity"
+36-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:23:13-50
+37            android:exported="true"
+37-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:24:13-36
+38            android:launchMode="singleTask" >
+38-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:25:13-44
+39            <intent-filter>
+39-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:26:13-29:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:27:17-69
+40-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:27:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:28:17-77
+42-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:28:27-74
+43            </intent-filter>
+44            <intent-filter>
+44-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:30:13-38:29
+45                <action android:name="android.intent.action.VIEW" />
+45-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:31:17-69
+45-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:31:25-66
+46
+47                <category android:name="android.intent.category.DEFAULT" />
+47-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:32:17-76
+47-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:32:27-73
+48                <category android:name="android.intent.category.BROWSABLE" />
+48-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:33:17-78
+48-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:33:27-75
+49
+50                <data
+50-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:34:17-37:51
+51                    android:host="auth"
+51-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:35:21-40
+52                    android:path="/callback"
+52-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:36:21-45
+53                    android:scheme="npairlines" />
+53-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:37:21-48
+54            </intent-filter>
+55        </activity>
+56        <activity android:name="com.npairlines.ui.auth.RegisterActivity" />
+56-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:40:9-62
+56-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:40:19-59
+57        <activity android:name="com.npairlines.ui.seat.SeatSelectionActivity" />
+57-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:41:9-67
+57-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:41:19-64
+58        <activity android:name="com.npairlines.ui.booking.BookingActivity" />
+58-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:42:9-64
+58-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:42:19-61
+59        <activity android:name="com.npairlines.ui.booking.PaymentActivity" />
+59-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:43:9-64
+59-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:43:19-61
+60        <activity android:name="com.npairlines.ui.booking.ConfirmationActivity" />
+60-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:44:9-69
+60-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:44:19-66
+61        <activity android:name="com.npairlines.ui.admin.AdminDashboardActivity" />
+61-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:45:9-69
+61-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:45:19-66
+62        <activity
+62-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:46:9-47:57
+63            android:name="com.npairlines.ui.auth.OnboardingActivity"
+63-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:46:19-61
+64            android:windowSoftInputMode="adjustResize" />
+64-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:47:13-55
+65        <activity android:name="com.npairlines.ui.auth.TermsActivity" />
+65-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:48:9-59
+65-->C:\Users\baral\OneDrive\Desktop\android studio\Np-Airlines\app\src\main\AndroidManifest.xml:48:19-56
+66
+67        <provider
+67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\baral\.gradle\caches\9.1.0\transforms\ced4c93479dcdd44b0e3012515f91336\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+68            android:name="androidx.startup.InitializationProvider"
+68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\baral\.gradle\caches\9.1.0\transforms\ced4c93479dcdd44b0e3012515f91336\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+69            android:authorities="com.npairlines.androidx-startup"
+69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\baral\.gradle\caches\9.1.0\transforms\ced4c93479dcdd44b0e3012515f91336\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+70            android:exported="false" >
+70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\baral\.gradle\caches\9.1.0\transforms\ced4c93479dcdd44b0e3012515f91336\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+71            <meta-data
+71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\baral\.gradle\caches\9.1.0\transforms\ced4c93479dcdd44b0e3012515f91336\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+72                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\baral\.gradle\caches\9.1.0\transforms\ced4c93479dcdd44b0e3012515f91336\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+73                android:value="androidx.startup" />
+73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\baral\.gradle\caches\9.1.0\transforms\ced4c93479dcdd44b0e3012515f91336\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+74            <meta-data
+74-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\baral\.gradle\caches\9.1.0\transforms\af8467fe9a5fe7568702627b2dd0bb14\workspace\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+75                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+75-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\baral\.gradle\caches\9.1.0\transforms\af8467fe9a5fe7568702627b2dd0bb14\workspace\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+76                android:value="androidx.startup" />
+76-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\baral\.gradle\caches\9.1.0\transforms\af8467fe9a5fe7568702627b2dd0bb14\workspace\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+77        </provider>
+78    </application>
+79
+80</manifest>

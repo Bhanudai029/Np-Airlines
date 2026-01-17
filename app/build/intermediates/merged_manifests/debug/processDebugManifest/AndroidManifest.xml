@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.npairlines"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="29"
+        android:targetSdkVersion="33" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <permission
+        android:name="com.npairlines.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.npairlines.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NpAirlines" >
+        <activity
+            android:name="com.npairlines.MainActivity"
+            android:exported="true" >
+        </activity>
+        <activity android:name="com.npairlines.ui.flight.FlightSearchActivity" />
+        <activity
+            android:name="com.npairlines.ui.auth.LoginActivity"
+            android:exported="true"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="auth"
+                    android:path="/callback"
+                    android:scheme="npairlines" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.npairlines.ui.auth.RegisterActivity" />
+        <activity android:name="com.npairlines.ui.seat.SeatSelectionActivity" />
+        <activity android:name="com.npairlines.ui.booking.BookingActivity" />
+        <activity android:name="com.npairlines.ui.booking.PaymentActivity" />
+        <activity android:name="com.npairlines.ui.booking.ConfirmationActivity" />
+        <activity android:name="com.npairlines.ui.admin.AdminDashboardActivity" />
+        <activity
+            android:name="com.npairlines.ui.auth.OnboardingActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name="com.npairlines.ui.auth.TermsActivity" />
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.npairlines.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
+    </application>
+
+</manifest>
